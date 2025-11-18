@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    worker VARCHAR(50),
+    cola VARCHAR(50),
+    payload TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
