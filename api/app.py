@@ -36,5 +36,3 @@ def health():
     return jsonify({"status": "ok", "instance": INSTANCE_ID})
 
 app.run(host="0.0.0.0", port=5000)
-
-
